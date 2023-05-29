@@ -245,6 +245,7 @@ label{
     font-family: Arial, Helvetica, sans-serif;
     
 }
+
 .nosotros{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -296,6 +297,28 @@ label{
     .enlace-footer:hover{
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+    footer {
+        background: rgb(70, 70, 70);
+        padding: 20px 0;
+        color: #fff;
+        padding-top: 30px;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: auto;
+        font-size: 30px;
+    
+    }
+    
+    .contact h4{
+      background: #ac5151;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      height: 40px;
+      font-size: 30px;
+    
     }
 
 
